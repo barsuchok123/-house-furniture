@@ -762,8 +762,8 @@ footer {
       overflow: hidden; }
       @media (min-width: 320px) and (max-width: 767px) {
         #content .product .product-list {
-          width: 94%;
-          margin: 0px 5px 0 15px; } }
+          width: 98%;
+          margin: 0 auto; } }
       #content .product .product-list li {
         position: relative;
         width: 232px;
