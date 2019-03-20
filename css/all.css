@@ -1422,6 +1422,9 @@ footer .footer-mobile {
 
 #content .recommendation .product .product-list li {
   height: auto; }
+  @media (min-width: 320px) and (max-width: 767px) {
+    #content .recommendation .product .product-list li {
+      width: 93%; } }
   #content .recommendation .product .product-list li .price {
     background: #a4785a;
     color: #ffffff;
@@ -1431,25 +1434,14 @@ footer .footer-mobile {
     display: block;
     position: relative;
     bottom: 2px; }
-    @media (min-width: 320px) and (max-width: 767px) {
-      #content .recommendation .product .product-list li .price {
-        overflow: hidden;
-        height: auto; } }
     #content .recommendation .product .product-list li .price span {
       float: left;
       margin-left: 12px;
       padding-top: 12px; }
-      @media (min-width: 768px) and (max-width: 983px) {
-        #content .recommendation .product .product-list li .price span {
-          margin-left: 2px; } }
       #content .recommendation .product .product-list li .price span.arrow-detail {
         float: right;
         padding-top: 20px;
         padding-right: 10px; }
-        @media (min-width: 320px) and (max-width: 767px) {
-          #content .recommendation .product .product-list li .price span.arrow-detail {
-            padding-bottom: 10px;
-            padding-top: 10px; } }
         #content .recommendation .product .product-list li .price span.arrow-detail:after {
           content: "\203A";
           width: 6px;
@@ -1480,9 +1472,6 @@ footer .footer-mobile {
       @media (min-width: 768px) and (max-width: 983px) {
         #content .recommendation .product .product-list li .img-product a {
           font-size: 14px; } }
-      @media (min-width: 320px) and (max-width: 767px) {
-        #content .recommendation .product .product-list li .img-product a {
-          font-size: 12px; } }
       @media (min-width: 320px) and (max-width: 767px) {
         #content .recommendation .product .product-list li .img-product a {
           height: 32px; } }

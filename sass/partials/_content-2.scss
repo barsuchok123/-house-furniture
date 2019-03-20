@@ -263,6 +263,9 @@
 			.product-list{
 				li{
 					height: auto;
+					@media (min-width: 320px) and (max-width: 767px) {
+						width: 93%;
+					}
 					.price{
 						background: #a4785a;
 						color: $color1;
@@ -271,25 +274,14 @@
 						padding: 0;
 						@include display-position;
 						bottom: 2px;
-						@media (min-width: 320px) and (max-width: 767px) {
-							overflow: hidden;
-							height: auto;
-						}
 						span{
 							float: left;
 							margin-left: 12px;
 							padding-top: 12px;
-							@media (min-width: 768px) and (max-width: 983px) {
-								margin-left: 2px;
-							}
 							&.arrow-detail{
 								float: right;
 							    padding-top: 20px;
 							    padding-right: 10px;
-							    @media (min-width: 320px) and (max-width: 767px) {
-									padding-bottom: 10px;
-									padding-top: 10px;
-								}
 								&:after{
 									content: "\203A";
 									width:6px;
@@ -326,9 +318,6 @@
 							font-size: 16px;
 							@media (min-width: 768px) and (max-width: 983px) {
 								font-size: 14px;
-							}
-							@media (min-width: 320px) and (max-width: 767px) {
-								font-size: 12px;
 							}
 							@media (min-width: 320px) and (max-width: 767px) {
 								height: 32px;
