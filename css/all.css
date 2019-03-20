@@ -1036,7 +1036,8 @@ main #content .title-catalog {
     font-weight: bold; }
   main #content .title-catalog h3 {
     padding-top: 5px;
-    padding-left: 10px; }
+    padding-left: 10px;
+    font-size: 18px; }
 
 main #content .touch-catalog {
   display: none; }
@@ -1058,9 +1059,8 @@ main #content .menu-list {
         margin-left: 3px;
         margin-right: 7px;
         color: #be0028;
-        width: 7px;
-        height: 10px;
-        font-weight: bold; }
+        font-weight: bold;
+        font-size: 20px; }
     main #content .menu-list li.menu-item ul.touch-menu {
       margin-left: 50px;
       display: none; }
@@ -1070,10 +1070,11 @@ main #content .menu-list {
         height: auto; }
         main #content .menu-list li.menu-item ul.touch-menu li a {
           color: #ffffff;
-          font-size: 11px;
+          font-size: 16px;
           border-bottom: 0;
-          text-decoration: underline;
-          margin-left: 20px; }
+          text-decoration: none;
+          margin-left: 20px;
+          line-height: 1.5; }
     main #content .menu-list li.menu-item:after {
       content: " ";
       height: 1px;
@@ -1106,8 +1107,8 @@ main #content .menu-list {
     border-bottom-right-radius: 10px; }
   main #content .menu-list li a {
     color: #502b0b;
-    font-size: 12px;
-    border-bottom: 2px groove #c7ac9a; }
+    font-size: 18px;
+    border-bottom: none; }
 
 main #content .mobile-filter {
   display: none;
